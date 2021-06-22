@@ -5,6 +5,7 @@ import random
 Character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!$%#@&~`*)(^"
 
 while 1:
+    print("# ThunderBolt Password Generator")
     account_name = input("What is your account : ")
     password_lenght = int(input("what lenght that you wont your password be : "))
     password_count = int(input("How many passwords would you like :  "))
